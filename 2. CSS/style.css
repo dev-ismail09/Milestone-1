@@ -1,0 +1,22 @@
+.header{
+    height: 2000px;
+    background-image: url('baby3.jpg');
+    /* background-image: url('../Image/baby2.jpg'); */
+    background-size: 30%;
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat-x; */
+    background-position: top right;
+    background-blend-mode: multiply;
+    background-color: rgba(40, 40, 40, 0.211);
+}
+
+.header h3{
+    color: red;
+    text-decoration: underline wavy green;
+    
+}
+input [type="text"] {
+    background-color: bisque;
+    width: 100px;
+}

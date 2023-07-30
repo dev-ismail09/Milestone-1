@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to cacir pitha ghor</h2>
+    <form>
+        <label for="name">Your name
+            <input type="text" placeholder="your name">
+        </label>
+        
+        <label for="email">Your email
+            <input type="email" placeholder="your email"> 
+        </label>
+
+        <fieldset>
+            <legend>Pick One pitha</legend>
+            <label for="Chitoy">
+                <input type="radio" name="pitha" id="Chitoy">
+                Chitoy
+            </label>
+            <label for="Vapa">
+                <input type="radio" name="pitha" id="Vapa">
+                Vapa
+            </label>
+            <label for="puri">
+                <input type="radio" name="pitha" id="puri">
+                puri
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>One or more</legend>
+            <label for="vapa">
+                <input type="checkbox" name="vorta" id="vapa">
+                vapa
+            </label>
+            <label for="puri">
+                <input type="checkbox" name="vorta" id="puri">
+                puri
+            </label>
+            <label for="Chitoy">
+                <input type="checkbox" name="vorta" id="Chitoy">
+                Chitoy
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+               
+    </form>
+</body>
+</html>
